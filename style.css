@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    align-items: center;
+
+
+}
+
+
+.oswald-uniquifier{
+  font-family: "Oswald", sans-serif;
+  font-weight: weight;
+  font-style: normal;
+  align-items: center;
+  
+}
+
+body{
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url("https://r4.wallpaperflare.com/wallpaper/270/456/970/fire-battlefield-sword-world-of-warcraft-wallpaper-04852c44d44ecdeb8348d0067230fc00.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+
+label{
+  font-weight: bold;
+  color: black;
+  margin-bottom: 8px;
+}
+
+input[type="text"], select {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+
+input[type="text"]:focus, select:focus {
+  border-color: darkblue;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+.container{
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1{
+  margin-bottom: 30px;
+}
+
+button{
+  background-color: darkblue;
+  color: black;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease transform 0.2s ease;
+  align-self: center;
+}
+button:hover{
+  background-color: rgb(0, 119, 255);
+  transform: scale(1.05);
+}
